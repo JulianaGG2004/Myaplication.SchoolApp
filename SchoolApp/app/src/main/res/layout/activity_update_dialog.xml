@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".activities.InsertionActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="378dp"
+        android:layout_height="139dp"
+        android:background="@color/dark_blue">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Actualizar Calificación"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="276dp"
+            android:layout_height="69dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192"
+            app:srcCompat="@drawable/school_app"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="464dp"
+        android:layout_height="868dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+
+        <EditText
+            android:id="@+id/editTextNomEstu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NombreEstudiante"
+            app:layout_constraintBottom_toTopOf="@+id/btnUpdateData"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Curso"
+            app:layout_constraintBottom_toTopOf="@+id/btnUpdateData"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.264"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextMateria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Materia"
+            app:layout_constraintBottom_toTopOf="@+id/btnUpdateData"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.476"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextValorCali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ValorCalificación"
+            app:layout_constraintBottom_toTopOf="@+id/btnUpdateData"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.682"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextNomActi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NombreActividad"
+            app:layout_constraintBottom_toTopOf="@+id/btnUpdateData"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.933"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnUpdateData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:text="Actualizar Datos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.359"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

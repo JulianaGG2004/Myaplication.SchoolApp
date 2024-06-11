@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "320382717401",
+    "firebase_url": "https://schoolapp-5c248-default-rtdb.firebaseio.com",
+    "project_id": "schoolapp-5c248",
+    "storage_bucket": "schoolapp-5c248.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320382717401:android:abcc988243680e6a741dc8",
+        "android_client_info": {
+          "package_name": "com.electiva.schoolapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5MzdtloZZsyG_EcDu3_uoSsnh7FIGW8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
